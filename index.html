@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>نظام المزرعة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐄 نظام إدارة مزرعة</h1>
+
+<div class="container">
+
+  <!-- إضافة حيوان -->
+  <h2>إضافة حيوان</h2>
+  <input type="text" id="type" placeholder="النوع">
+  <input type="number" id="age" placeholder="العمر">
+  <input type="text" id="health" placeholder="الحالة الصحية">
+  <button onclick="addAnimal()">إضافة</button>
+
+  <!-- عرض الحيوانات -->
+  <h2>قائمة الحيوانات</h2>
+  <ul id="animalList"></ul>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
